@@ -5,7 +5,7 @@ sudo docker info
 
 
 docker build -t <docker username>/<image-name>
-docker run -d <docker username>/<image-name>
+docker run -p 8080:8080 -d <docker username>/<image-name>
 
 docker ps   (checks to see running coontainers
 docker stop <container id>     (stops a container)

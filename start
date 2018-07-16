@@ -9,3 +9,5 @@ docker run -d <docker username>/<image-name>
 
 docker ps   (checks to see running coontainers
 docker stop <container id>     (stops a container)
+
+docker login --username=<hub username> --email=<hub email>
